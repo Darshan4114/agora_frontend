@@ -109,7 +109,7 @@ function App() {
             e.preventDefault();
             handleJoin(e.target);
           }}
-            style={{display: 'flex', flexDirection: 'column', width: '25rem', margin: '0 auto'}}
+            style={{display: 'flex', flexDirection: 'column', width: '15rem', margin: '0 auto'}}
           >
             <label for='appId'>App Id</label>
             <input name='appId' style={{marginBottom: '1rem', padding: '0.5rem', fontSize: '1.25rem'}} required/>
